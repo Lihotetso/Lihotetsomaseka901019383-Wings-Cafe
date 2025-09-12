@@ -48,7 +48,6 @@ function App() {
       .then(() => setProducts(products => products.filter(p => p.id !== id)));
   };
 
-  // Dashboard navigation handler
   const handleDashboardNav = (section) => {
     setActiveSection(section);
   };

@@ -5,7 +5,7 @@
       "description": "Protein",
       "category": "Food",
       "price": "100",
-      "quantity": 86,
+      "quantity": 85,
       "id": 1757619732198
     },
     {
@@ -13,7 +13,7 @@
       "description": "Boost immune system",
       "category": "Beverage",
       "price": "45",
-      "quantity": 71,
+      "quantity": 70,
       "id": 1757620559488
     },
     {
@@ -23,6 +23,14 @@
       "price": "34",
       "quantity": 88,
       "id": 1757620616552
+    },
+    {
+      "name": "maize",
+      "description": "gives energy",
+      "category": "food",
+      "price": "100",
+      "quantity": "98",
+      "id": 1757699330148
     }
   ],
   "customers": [],

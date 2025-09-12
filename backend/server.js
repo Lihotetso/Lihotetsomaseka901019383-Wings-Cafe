@@ -19,7 +19,6 @@ function writeData(data) {
   fs.writeFileSync(DATA_PATH, JSON.stringify(data, null, 2));
 }
 
-// Products CRUD
 app.get('/api/products', (req, res) => {
   const data = readData();
   res.json(data.products);
@@ -49,7 +48,7 @@ app.delete('/api/products/:id', (req, res) => {
   res.status(204).end();
 });
 
-// Customers CRUD (simple)
+
 app.get('/api/customers', (req, res) => {
   const data = readData();
   res.json(data.customers);
@@ -63,7 +62,6 @@ app.post('/api/customers', (req, res) => {
   res.status(201).json(customer);
 });
 
-// Sales CRUD (simple)
 app.get('/api/sales', (req, res) => {
   const data = readData();
   res.json(data.sales);
