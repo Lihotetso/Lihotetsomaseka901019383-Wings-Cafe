@@ -1,0 +1,30 @@
+{
+  "products": [
+    {
+      "name": "Eggs",
+      "description": "Protein",
+      "category": "Food",
+      "price": "100",
+      "quantity": 86,
+      "id": 1757619732198
+    },
+    {
+      "name": "Drink",
+      "description": "Boost immune system",
+      "category": "Beverage",
+      "price": "45",
+      "quantity": 71,
+      "id": 1757620559488
+    },
+    {
+      "name": "meat",
+      "description": "Protein",
+      "category": "food",
+      "price": "34",
+      "quantity": 88,
+      "id": 1757620616552
+    }
+  ],
+  "customers": [],
+  "sales": []
+}
